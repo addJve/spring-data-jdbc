@@ -1,2 +1,4 @@
-INSERT INTO account VALUES (NULL, 'Jane Down', 1000);
-INSERT INTO account VALUES (NULL, 'John Read', 1000);
+INSERT INTO account VALUES (DEFAULT, 'Lili', 1000);
+INSERT INTO account VALUES (DEFAULT, 'Jake', 2000);
+INSERT INTO account VALUES (DEFAULT, 'Jane', 3000);
+INSERT INTO account VALUES (DEFAULT, 'Mark', 0);

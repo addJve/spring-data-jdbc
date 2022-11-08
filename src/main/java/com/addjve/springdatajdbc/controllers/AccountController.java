@@ -29,6 +29,6 @@ public class AccountController {
     public Iterable<Account> getAllAccounts(
             @RequestParam(required = false) String name
     ) {
-
+        return name == null ? transferService.getAllAccounts() : transferService.findAccountsByName(name);
     }
 }
